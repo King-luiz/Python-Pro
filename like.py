@@ -19,7 +19,8 @@ root.geometry("400x400")
 question_label = tk.Label(root, text="Do you like me?")
 question_label.pack(pady=20)
 
-
+yes_button = tk.Button(root, text="Yes", command=show_popup)
+yes_button.pack(pady=10)
 
 no_button = tk.Button(root, text="No")
 no_button.pack()
